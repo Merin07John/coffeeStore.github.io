@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spicy Brew:Official store</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Style.css/cart.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="shopping-cart">
+      <nav>
+        <div class="logo_content">
+          <img src="Images/leaf.logo1.png" alt="logo" class="compay_logo" />
+        </div>
+        <div class="title">Shopping Cart</div>
+        <ul class="nav_content">
+          <li>
+            <a class="nav_links active" href="index.html"
+              ><i class="fas fa-home"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Product #1 -->
+      <div class="item">
+        <div class="image">
+          <img src="Images/cofe_1.jpg" alt="" />
+        </div>
+
+        <div class="description">
+          <span>Darjeeling Spring </span>
+          <span>(Limited Edition)</span>
+        </div>
+        <div class="quantity">
+          <button class="plus-btn" type="button" onclick="incrementValue()" name="button">
+            <i class="fas fa-plus"></i>
+          </button>
+          <input type="text" name="quantity" value="1"  maxlength="1" max="5"id="number"/>
+          <button class="minus-btn" type="button" onclick="decrementValue()" name="button">
+            <i class="fas fa-minus"></i>
+          </button>
+        </div>
+
+        <div id="total-price-1">$500.00</div>
+      </div>
+
+      <!-- Product #2 -->
+      <div class="item">
+        <div class="image">
+          <img src="Images/cofe_2.jpg" alt="" />
+        </div>
+        <div class="description">
+          <span>Nilgiri Winter Frost Tea</span>
+          <span>Blue Mount</span>
+        </div>
+        <div class="quantity">
+          <button class="plus-btn" type="button" onclick="incrementValue()" name="button">
+            <i class="fas fa-plus"></i>
+          </button>
+          <input type="text" name="quantity" value="1" maxlength="1" max="5" id="number"/>
+          <button class="minus-btn" type="button" onclick="decrementValue()" name="button">
+            <i class="fas fa-minus"></i>
+          </button>
+        </div>
+        <div id="total-price-2">$330.00</div>
+      </div>
+
+      <!-- Product #3 -->
+      <div class="item">
+        <div class="image">
+          <img src="Images/cofe_3.jpg" alt="" />
+        </div>
+        <div class="description">
+          <span>Paan Rose Green Tea</span>
+          <span>Special one</span>
+        </div>
+
+        <div class="quantity">
+          <button class="plus-btn" type="button" onclick="incrementValue()" name="button">
+            <i class="fas fa-plus"></i>
+          </button>
+          <input type="text" name="quantity" value="1" maxlength="1" max="5" id="number"/>
+          <button class="minus-btn" type="button" onclick="decrementValue()" name="button">
+            <i class="fas fa-minus"></i>
+          </button>
+        </div>
+        <div id="total-price-3">$450.00</div>
+      </div>
+
+      <!-- Product #4 -->
+
+      <div class="item">
+        <div class="image">
+          <img src="Images/cofe-4.jpg" alt="" />
+        </div>
+        <div class="description">
+          <span>Lemon Green Special</span>
+          <span>Blended spicy</span>
+        </div>
+        <div class="quantity">
+          <button class="plus-btn" type="button" onclick="incrementValue()" name="button">
+            <i class="fas fa-plus"></i>
+          </button>
+          <input type="text" name="quantity"  value="1" maxlength="1" max="5" id="number"/>
+          <button class="minus-btn" type="button" onclick="decrementValue()" name="button">
+            <i class="fas fa-minus"></i>
+          </button>
+        </div>
+        <div id="total-price-4">$199.00</div>
+      </div>
+
+      <!-- Product #5 -->
+
+      <div class="item">
+        <div class="image">
+          <img src="Images/cup_img.jpg" alt="" />
+        </div>
+        <div class="description">
+          <span>Hibiscus Lemongrass Tisane</span>
+          <span>Highrange Special</span>
+        </div>
+        <div class="quantity">
+          <button class="plus-btn" type="button" onclick="incrementValue()" name="button">
+            <i class="fas fa-plus"></i>
+          </button>
+          <input type="text" name="quantity" value="1" maxlength="1" max="5" id="number" />
+          <button class="minus-btn" type="button" onclick="decrementValue()" name="button">
+            <i class="fas fa-minus"></i>
+          </button>
+        </div>
+        <div id="total-price-5">$270.00</div>
+      </div>
+
+      <div class="checkout-btn">
+        <a href="checkout.html"><button class="butn">Checkout</button></a>
+      </div>
+    </div>
+
+    <script src="Script.js/cart.js"></script>
+  </body>
+</html>

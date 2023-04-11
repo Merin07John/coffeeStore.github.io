@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+  
+}
+.container{
+    height: 900px;
+    width: 100%;
+    background-color: aqua;
+}
+.about{
+ position: relative;
+  width: 95%;
+  margin: 0 35px;
+}
+.title-text{
+    
+    font-size: 50px;
+    padding: 50px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-left:70vh;
+    color: rgb(226, 47, 20);
+}
+.about-1{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 40px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    color: rgb(27, 7, 64);
+}
+.back-btn{
+    position: relative;
+    height: 40px;
+    width:120px;
+    background-color: burlywood;
+    font-size: 20px;
+    border-radius: 10px;
+    left: 180vh;
+    top: 20px;
+
+}
+.spcl-txt{
+    font-size: 20px;
+    text-decoration: underline;
+}
